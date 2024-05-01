@@ -1,9 +1,12 @@
-import Image from "next/image";
+import React from 'react';
+import Loginpage from './(auth)/login/page';
 
-export default function Home() {
+const HomePage = () => {
   return (
-   <div>
-    <h1>Project Management System</h1>
-   </div>
+    <div>
+      <Loginpage/>
+    </div>
   );
-}
+};
+
+export default HomePage;
