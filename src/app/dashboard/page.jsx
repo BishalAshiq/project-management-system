@@ -10,6 +10,7 @@ import MyTasksvg from '@/components/common/myTasksvg';
 import Inboxsvg from './../../components/common/inboxsvg';
 import Members from '@/components/common/members';
 import Settingsvg from '@/components/common/settingsvg';
+import Home from '@/components/Dashboard/Home';
 
 import '../dashboard/dashboard.module.css';
 
@@ -157,7 +158,7 @@ const page = () => {
             >
               <div>
                 <div>
-                  {activeTab === 1 && <div>Content for Tab 1</div>}
+                  {activeTab === 1 && <div><Home/></div>}
                   {activeTab === 2 && <div>Working 2</div>}
                   {activeTab === 3 && <div>Working 3</div>}
                   {activeTab === 4 && <div>Working 4</div>}
